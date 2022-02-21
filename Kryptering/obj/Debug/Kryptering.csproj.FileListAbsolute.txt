@@ -1,0 +1,6 @@
+C:\Users\elis.bergling\RiderProjects\Kryptering\Kryptering\bin\Debug\Kryptering.exe
+C:\Users\elis.bergling\RiderProjects\Kryptering\Kryptering\bin\Debug\Kryptering.pdb
+C:\Users\elis.bergling\RiderProjects\Kryptering\Kryptering\obj\Debug\Kryptering.csprojAssemblyReference.cache
+C:\Users\elis.bergling\RiderProjects\Kryptering\Kryptering\obj\Debug\Kryptering.csproj.CoreCompileInputs.cache
+C:\Users\elis.bergling\RiderProjects\Kryptering\Kryptering\obj\Debug\Kryptering.exe
+C:\Users\elis.bergling\RiderProjects\Kryptering\Kryptering\obj\Debug\Kryptering.pdb
