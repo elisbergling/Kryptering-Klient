@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96312beb-d6b1-424a-998d-5e70699710d6" name="Changes" comment="first commit" />
+    <list default="true" id="96312beb-d6b1-424a-998d-5e70699710d6" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Kryptering/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Kryptering/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kryptering/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Kryptering/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kryptering/bin/Debug/Kryptering.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Kryptering/bin/Debug/Kryptering.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kryptering/bin/Debug/Kryptering.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Kryptering/bin/Debug/Kryptering.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kryptering/obj/Debug/Kryptering.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Kryptering/obj/Debug/Kryptering.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kryptering/obj/Debug/Kryptering.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Kryptering/obj/Debug/Kryptering.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +89,8 @@
       <workItem from="1645382844624" duration="683000" />
       <workItem from="1645384274869" duration="11615000" />
       <workItem from="1645476140160" duration="432000" />
-      <workItem from="1645476593095" duration="52000" />
+      <workItem from="1645476593095" duration="686000" />
+      <workItem from="1645528678394" duration="898000" />
     </task>
     <task id="LOCAL−00001" summary="first commit">
       <created>1645475260576</created>

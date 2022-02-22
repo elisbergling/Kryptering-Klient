@@ -9,16 +9,17 @@ namespace Kryptering
     {
         public static void Main(string[] args)
         {
-            
             const string address = "127.0.0.1";
             const int port = 8001;
             TcpClient tcpClient = new TcpClient();
             Anslut(tcpClient, address, port);
+
             NetworkStream tcpStream = tcpClient.GetStream();
+
             bool flag = true;
-            
+
             Console.WriteLine("Välkommen till den här chat liknande saken");
-            
+
             //Programloop
             while (flag)
             {
@@ -114,11 +115,11 @@ namespace Kryptering
             else
             {
                 //Konvertera sträng från servern till olika Message objekt 
-                string[] pattern = {"@@@"};//@@@ används som skiljetecken mellan alla meddelanden
+                string[] pattern = {"@@@"}; //@@@ används som skiljetecken mellan alla meddelanden
                 string[] splitedString = read.Split(pattern, StringSplitOptions.RemoveEmptyEntries);
 
                 //Tömmer befintliga meddelanden ifall användaren har hämtat tidigare
-                Messages.MessagesProp.Clear(); 
+                Messages.MessagesProp.Clear();
 
                 //Lägger till meddelanden i meddelande listan
                 foreach (var split in splitedString)
@@ -132,7 +133,7 @@ namespace Kryptering
 
         static void AvslutaProgrammet(TcpClient tcpClient, NetworkStream tcpStream)
         {
-            byte[] mByte = Encoding.ASCII.GetBytes("1");//1 används som meddelande för att avsluta Servern
+            byte[] mByte = Encoding.ASCII.GetBytes("1"); //1 används som meddelande för att avsluta Servern
             // Skicka iväg meddelandet:
             tcpStream.Write(mByte, 0, mByte.Length);
             // Stäng anslutningen:
@@ -150,7 +151,10 @@ namespace Kryptering
             }
             catch (Exception e)
             {
-                Console.WriteLine(e);
+                Console.WriteLine(e.Message);
+                Console.WriteLine("Programmet stängs av. Hejdå");
+                //Stänger av programmet ifall det inte finns någon tillgänglig server
+                Environment.Exit(0);
             }
         }
 
@@ -171,7 +175,7 @@ namespace Kryptering
                     {
                         throw new NotANumberException();
                     }
-                    
+
                     //Se ifall nummret ligger inom rätt värden
                     if (number > 5 || number < 1)
                     {
@@ -197,7 +201,7 @@ namespace Kryptering
                 {
                     Console.Write(text);
                     string input = Console.ReadLine()!;
-                    
+
                     //Ser ifall inmatningssträngen innhåller specialtecken
                     if (rg.IsMatch(input))
                     {
